@@ -58,7 +58,7 @@ struct ProductFilter {
 	};
 
 	struct Betterfilter : Filter<Product> {
-		std::vector<Product*> filter(std::vector<Product*> items, Specification<Product>& spec) {
+		std::vector<Product*> filter(std::vector<Product*> items, Specification<Product>& spec) override {
 			std::vector<Product*> result;
 			
 			for (auto &i : items) {

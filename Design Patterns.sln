@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Single Responsibility - Journal", "Design Patterns\Design Patterns.vcxproj", "{1C6707D9-9C7A-47A4-9D9F-FCB32926F7D4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Open-Close Responsibility", "Open-Close Responsibility\Open-Close Responsibility.vcxproj", "{FA13E176-672E-44BF-8D75-2F12E6B31A7B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Open-Close Responsibility - Product Filter", "Open-Close Responsibility\Open-Close Responsibility.vcxproj", "{FA13E176-672E-44BF-8D75-2F12E6B31A7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Liskov Substitution Principle", "Liskov Substitution Principle\Liskov Substitution Principle.vcxproj", "{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interface Segregation Principle - Printer-Scanner-Fax API", "Interface Segregation Principle\Interface Segregation Principle.vcxproj", "{86CF4A22-7C97-4A94-A297-C0EC443410A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dependency Inversion Principle", "Dependency Inversion Principle\Dependency Inversion Principle.vcxproj", "{6299F9DC-E33F-4036-BC98-EC26081B1D90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,30 @@ Global
 		{FA13E176-672E-44BF-8D75-2F12E6B31A7B}.Release|x64.Build.0 = Release|x64
 		{FA13E176-672E-44BF-8D75-2F12E6B31A7B}.Release|x86.ActiveCfg = Release|Win32
 		{FA13E176-672E-44BF-8D75-2F12E6B31A7B}.Release|x86.Build.0 = Release|Win32
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Debug|x64.ActiveCfg = Debug|x64
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Debug|x64.Build.0 = Debug|x64
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Debug|x86.Build.0 = Debug|Win32
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Release|x64.ActiveCfg = Release|x64
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Release|x64.Build.0 = Release|x64
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Release|x86.ActiveCfg = Release|Win32
+		{AFCECF95-0F85-419F-9A3F-FCA0D03A8278}.Release|x86.Build.0 = Release|Win32
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Debug|x64.ActiveCfg = Debug|x64
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Debug|x64.Build.0 = Debug|x64
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Debug|x86.Build.0 = Debug|Win32
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Release|x64.ActiveCfg = Release|x64
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Release|x64.Build.0 = Release|x64
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Release|x86.ActiveCfg = Release|Win32
+		{86CF4A22-7C97-4A94-A297-C0EC443410A4}.Release|x86.Build.0 = Release|Win32
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Debug|x64.ActiveCfg = Debug|x64
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Debug|x64.Build.0 = Debug|x64
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Debug|x86.ActiveCfg = Debug|Win32
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Debug|x86.Build.0 = Debug|Win32
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Release|x64.ActiveCfg = Release|x64
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Release|x64.Build.0 = Release|x64
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Release|x86.ActiveCfg = Release|Win32
+		{6299F9DC-E33F-4036-BC98-EC26081B1D90}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
