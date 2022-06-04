@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{64df6ad1-3beb-46bc-b94a-0ee4db50a8e1}</ProjectGuid>
-    <RootNamespace>Factory</RootNamespace>
+    <ProjectGuid>{3772c0b5-38ad-408f-ae25-6dc0520324b2}</ProjectGuid>
+    <RootNamespace>FactoryClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Factory Method</ProjectName>
+    <ProjectName>Factory Class - Concrete</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
