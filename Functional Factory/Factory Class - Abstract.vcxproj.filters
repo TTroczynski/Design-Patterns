@@ -20,13 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Factory Class - Abstract\DrinkFactory.h">
+    <ClInclude Include="HotDrink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Factory Class - Abstract\HotDrink.h">
+    <ClInclude Include="HotDrinkFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Factory Class - Abstract\HotDrinkFactory.h">
+    <ClInclude Include="DrinkFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

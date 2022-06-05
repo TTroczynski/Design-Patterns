@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4eb7b0b3-83c8-4194-ab85-06f16420b468}</ProjectGuid>
-    <RootNamespace>FunctionalFactory</RootNamespace>
+    <ProjectGuid>{2c8f6ac6-2113-49b0-9f11-7ec873c50d82}</ProjectGuid>
+    <RootNamespace>Prototype</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,11 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Factory Class - Abstract\DrinkFactory.h" />
-    <ClInclude Include="..\Factory Class - Abstract\HotDrink.h" />
-    <ClInclude Include="..\Factory Class - Abstract\HotDrinkFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
