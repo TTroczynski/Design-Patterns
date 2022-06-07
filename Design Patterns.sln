@@ -41,6 +41,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton Lifetime in a DI Container", "Singleton Lifetime in a DI Container\Singleton Lifetime in a DI Container.vcxproj", "{BBA556F9-3EBA-481F-BC40-4FF16433C724}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton - Monostate", "Singleton - Monostate\Singleton - Monostate.vcxproj", "{8A3F074D-93BA-4703-9AA1-C5679C259681}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton - Multiton", "Singleton - Multiton\Singleton - Multiton.vcxproj", "{3683A160-CD40-4059-9C23-68EB506B07C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +205,22 @@ Global
 		{BBA556F9-3EBA-481F-BC40-4FF16433C724}.Release|x64.Build.0 = Release|x64
 		{BBA556F9-3EBA-481F-BC40-4FF16433C724}.Release|x86.ActiveCfg = Release|Win32
 		{BBA556F9-3EBA-481F-BC40-4FF16433C724}.Release|x86.Build.0 = Release|Win32
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Debug|x64.ActiveCfg = Debug|x64
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Debug|x64.Build.0 = Debug|x64
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Debug|x86.Build.0 = Debug|Win32
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Release|x64.ActiveCfg = Release|x64
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Release|x64.Build.0 = Release|x64
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Release|x86.ActiveCfg = Release|Win32
+		{8A3F074D-93BA-4703-9AA1-C5679C259681}.Release|x86.Build.0 = Release|Win32
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Debug|x64.ActiveCfg = Debug|x64
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Debug|x64.Build.0 = Debug|x64
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Debug|x86.Build.0 = Debug|Win32
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Release|x64.ActiveCfg = Release|x64
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Release|x64.Build.0 = Release|x64
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Release|x86.ActiveCfg = Release|Win32
+		{3683A160-CD40-4059-9C23-68EB506B07C1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
