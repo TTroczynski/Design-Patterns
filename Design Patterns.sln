@@ -51,6 +51,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge - Shrink Wrapped Pim
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge - Implementation", "Bridge - Implementation\Bridge - Implementation.vcxproj", "{F11A0EA3-1AEE-42C7-8F5A-7EBAE2693462}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite", "Composite\Composite.vcxproj", "{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite - Neural Networks", "Composite - Neural Networks\Composite - Neural Networks.vcxproj", "{DB2B4939-632E-4CFD-A316-C65200CB331F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +255,22 @@ Global
 		{F11A0EA3-1AEE-42C7-8F5A-7EBAE2693462}.Release|x64.Build.0 = Release|x64
 		{F11A0EA3-1AEE-42C7-8F5A-7EBAE2693462}.Release|x86.ActiveCfg = Release|Win32
 		{F11A0EA3-1AEE-42C7-8F5A-7EBAE2693462}.Release|x86.Build.0 = Release|Win32
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Debug|x64.ActiveCfg = Debug|x64
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Debug|x64.Build.0 = Debug|x64
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Debug|x86.Build.0 = Debug|Win32
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Release|x64.ActiveCfg = Release|x64
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Release|x64.Build.0 = Release|x64
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Release|x86.ActiveCfg = Release|Win32
+		{FB8C26C9-76B0-41A3-80D0-BD6F7FC26481}.Release|x86.Build.0 = Release|Win32
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Debug|x64.ActiveCfg = Debug|x64
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Debug|x64.Build.0 = Debug|x64
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Debug|x86.Build.0 = Debug|Win32
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Release|x64.ActiveCfg = Release|x64
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Release|x64.Build.0 = Release|x64
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Release|x86.ActiveCfg = Release|Win32
+		{DB2B4939-632E-4CFD-A316-C65200CB331F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
