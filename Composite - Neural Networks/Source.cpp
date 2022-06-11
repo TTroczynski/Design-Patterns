@@ -4,8 +4,9 @@
 
 using namespace std;
 
-//CRTP - Curiously Repeating Template Pattern
+struct Neuron;
 
+//CRTP - Curiously Repeating Template Pattern
 template <typename Self>
 struct SomeNeurons
 {
@@ -13,11 +14,11 @@ struct SomeNeurons
 	{
 		//need to enumerate the neurons and the neurons of the 'other' argument
 		//one is an extension of the vector stl container class and one is a neuron
-		for (Neuron& from : *static_cast<Self*>(this))
-		{
+		for (Neuron& from : *static_cast<Self*>(this)) // static cast casts the collection to iterate through
+		{												// to the type being used through the template
 			for (Neuron& to : other)
 			{
-				from.out.push_back(&other);
+				from.out.push_back(&to);
 				to.in.push_back(&from);
 			}
 		}
@@ -25,6 +26,9 @@ struct SomeNeurons
 };
 
 
+//a singular object posing as a collection
+//by using the begin and end functions it can be used as a collection
+//allows for creating abstractions or interfaces that are very clean when object A is singular and B is a collection
 struct Neuron : SomeNeurons<Neuron>
 {
 	vector<Neuron*> in, out;
@@ -38,7 +42,7 @@ struct Neuron : SomeNeurons<Neuron>
 
 	//because this Neuron is posing as a collection of elements in terms of the SomeNeurons interface...
 	//the range based for-loops work for collection classes but this is not a collection class
-	//it is a single onbject storing a network of neuron references
+	//it is a single object storing a network of neuron references
 	Neuron* begin() { return this;  }
 	Neuron* end() { return this + 1; }
 	//these lines have the Neuron return itself when used as a collection
@@ -54,7 +58,7 @@ struct Neuron : SomeNeurons<Neuron>
 		{
 			os << n->id << "\t-->\t[" << obj.id << "]" << endl;
 		}
-		for (Neuron* n : obj.in)
+		for (Neuron* n : obj.out)
 		{
 			os << "[" << obj.id << "]\t-->\t" << n->id << endl;
 		}
@@ -75,7 +79,7 @@ struct NeuronLayer : vector<Neuron>, SomeNeurons<NeuronLayer>
 			emplace_back(Neuron{});
 		}
 	}
-	friend ostream& operator <<(ostream& os, const NeuronLayer& obj)
+	friend ostream& operator<<(ostream& os, const NeuronLayer& obj)
 	{
 		for (auto& n : obj)
 		{
@@ -100,6 +104,8 @@ int main()
 	//this explosion of possibilities for how to connect layers/neurons to neurons is not good
 	//we want one way to handle these cases for us if possible.
 
+
+	cout << layer1;
 
 	return 0;
 }
