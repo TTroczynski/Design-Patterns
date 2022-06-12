@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 #include <sstream>
-#include "di.h"
+#include <concepts>
 
 using namespace std;
 
@@ -15,6 +15,11 @@ struct Circle : Shape
 	float radius;
 
 	Circle(float radius) : radius(radius) {}
+
+	explicit Circle(const float radius) : radius(radius)
+	{
+
+	}
 
 	void resize(float factor)
 	{
@@ -77,21 +82,30 @@ struct TransparentShape : Shape
 	}
 };
 
+
+//mixing inheritance
+//perfect forwarding
+
+template <typename T>
+concept IsAShape = std::is_base_of<Shape, T>::value;
+
+template <IsAShape T> struct ColoredShape2 : T
+{
+	string color;
+	ColoredShape2() {}
+
+	template <typename...Args>
+	ColoredShape2(const string& color, Args...args) : T(std::forward<Args>(args)...), color(color) {}
+};
+
+
+
+
+
 int main()
 {
-	Circle circle(5);
-	ColoredShape red_circle(circle, "red");
-	cout << circle.str() << endl << red_circle.str() << endl;
-
-
-	//cannot call this member of the because it is not part of the Shape interface
-	// so the decorator does not have access to the member
-	//red_circle.resize(2);
-
-
-	TransparentShape my_circle(red_circle, 51);
-	cout << my_circle.str();
-
+	
+	ColoredShape2<Circle> redCircle;
 	
 
 	return 0;

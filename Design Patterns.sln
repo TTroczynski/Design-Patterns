@@ -57,7 +57,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite - Neural Networks
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite - Array-Backed Properties", "Composite - Array-Backed Properties\Composite - Array-Backed Properties.vcxproj", "{CC423662-7320-4BA4-8906-1606C1122A24}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcxproj", "{7622A845-88EB-4306-B80F-B0215DD531EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator - Dynamic", "Decorator\Decorator.vcxproj", "{7622A845-88EB-4306-B80F-B0215DD531EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator - Static", "Decorator - Static\Decorator - Static.vcxproj", "{D3D27665-990E-4132-BA27-3C01DE68C62C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,14 @@ Global
 		{7622A845-88EB-4306-B80F-B0215DD531EF}.Release|x64.Build.0 = Release|x64
 		{7622A845-88EB-4306-B80F-B0215DD531EF}.Release|x86.ActiveCfg = Release|Win32
 		{7622A845-88EB-4306-B80F-B0215DD531EF}.Release|x86.Build.0 = Release|Win32
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Debug|x64.ActiveCfg = Debug|x64
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Debug|x64.Build.0 = Debug|x64
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Debug|x86.Build.0 = Debug|Win32
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Release|x64.ActiveCfg = Release|x64
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Release|x64.Build.0 = Release|x64
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Release|x86.ActiveCfg = Release|Win32
+		{D3D27665-990E-4132-BA27-3C01DE68C62C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
