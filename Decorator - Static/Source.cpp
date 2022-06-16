@@ -5,6 +5,12 @@
 
 using namespace std;
 
+
+//Static decorator uses mix-in inheritance
+//lets you compose different decorators using templates
+//then you dont need to have a common interface, inheritance does everything for you
+
+
 struct Shape
 {
 	virtual string str() const = 0;

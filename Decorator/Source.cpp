@@ -3,6 +3,11 @@
 #include <sstream>
 #include "di.h"
 
+//dynamic decorator keeps a reference to the decorated object/s
+//generally passed as a constructor argument
+//creates the opportunity to create functions that perform operations on the object
+
+
 using namespace std;
 
 struct Shape
